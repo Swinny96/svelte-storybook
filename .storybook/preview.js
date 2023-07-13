@@ -1,5 +1,3 @@
-import '../src/index.less';
-
 /** @type { import('@storybook/svelte').Preview } */
 const preview = {
   parameters: {
