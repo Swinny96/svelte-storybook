@@ -34,6 +34,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@storybook/manager-api": "^7.0.27",
+    "@storybook/theming": "^7.0.27",
     "svelte-preprocess-less": "^0.4.0"
   }
 }
