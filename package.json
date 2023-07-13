@@ -16,9 +16,11 @@
     "@storybook/addon-interactions": "^7.0.27",
     "@storybook/addon-links": "^7.0.27",
     "@storybook/blocks": "^7.0.27",
+    "@storybook/manager-api": "^7.0.27",
     "@storybook/svelte": "^7.0.27",
     "@storybook/sveltekit": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/theming": "^7.0.27",
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.20.4",
     "@types/postcss-preset-env": "^8.0.0",
@@ -34,8 +36,6 @@
   },
   "type": "module",
   "dependencies": {
-    "@storybook/manager-api": "^7.0.27",
-    "@storybook/theming": "^7.0.27",
     "svelte-preprocess-less": "^0.4.0"
   }
 }
