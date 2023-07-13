@@ -8,7 +8,12 @@ const config = {
   ],
   framework: {
     name: "@storybook/sveltekit",
-    options: {},
+    options: {
+      less: {
+        // Require your Less preprocessor here
+        implementation: require('less'),
+      },
+    },
   },
   docs: {
     autodocs: "tag",
