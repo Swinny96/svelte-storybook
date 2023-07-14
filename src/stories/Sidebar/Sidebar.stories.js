@@ -1,43 +1,17 @@
-import Sidebar from './Sidebar.svelte';
+import Sidebar from "./Sidebar.svelte";
 
 // More on how to set up stories at: https://storybook.js.org/docs/svelte/writing-stories/introduction
 export default {
-  title: 'Components/Sidebar',
+  title: "Layout/Sidebar",
   component: Sidebar,
-  tags: ['autodocs'],
-  argTypes: {
-    backgroundColor: { control: 'color' },
-    size: {
-      control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
-    },
-  },
+  tags: ["autodocs"],
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/svelte/writing-stories/args
-export const Primary = {
+export const Standard = {
   args: {
-    primary: true,
-    label: 'Button',
-  },
-};
-
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
+    label: "Login",
+    link1: "Login",
+    link2: "Register",
   },
 };
