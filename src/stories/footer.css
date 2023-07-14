@@ -1,0 +1,36 @@
+.storybook-footer {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.storybook-footer a {
+  border-left: 1px solid #003594;
+  color: #003594;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.storybook-footer a:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.storybook-footer .powered-by {
+  border: none;
+  color: #003594;
+  padding-left: 25px;
+  font-size: 16px;
+  text-align: right;
+}
+
+@media (max-width: 991px) {
+  .storybook-footer .powered-by {
+    text-align: left;
+    padding: 0;
+  }
+}
