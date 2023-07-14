@@ -3,7 +3,7 @@ import { within, userEvent } from '@storybook/testing-library';
 import Page from './Page.svelte';
 
 export default {
-  title: 'Example/Page',
+  title: 'Layout/Page',
   component: Page,
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/svelte/configure/story-layout

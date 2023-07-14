@@ -1,6 +1,7 @@
 <script>
   import './page.css';
-  import Header from './Header.svelte';
+  import Header from '../Header/Header.svelte';
+  import Footer from '../Footer/Footer.svelte';
 
   let user = null;
 </script>
@@ -67,4 +68,5 @@
       Viewports addon in the toolbar
     </div>
   </section>
+  <Footer />
 </article>

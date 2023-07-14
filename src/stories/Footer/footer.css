@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  background: #fff;
 }
 
 .storybook-footer a {

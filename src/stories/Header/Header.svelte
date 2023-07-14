@@ -1,7 +1,7 @@
 <script>
   import './header.css';
-  import Button from './Button.svelte';
-  import Logo from './assets/logo.svg'
+  import Button from '../Buttons/Button.svelte';
+  import Logo from '../assets/logo.svg'
 
   import { createEventDispatcher } from 'svelte';
 
