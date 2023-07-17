@@ -9,15 +9,15 @@ const preview = {
       },
     },
     themes: {
-      default: "incharge",
+      default: "InCharge",
       list: [
         {
-          name: "incharge",
+          name: "InCharge",
           class: ["incharge", "light-mode"],
           color: "#003594",
         },
         {
-          name: "ee",
+          name: "EE",
           class: ["ee-mm", "dark-mode"],
           color: "#009C9C",
         },
