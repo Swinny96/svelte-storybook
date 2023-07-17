@@ -9,7 +9,6 @@ export default {
     backgroundColor: { control: 'color' },
     size: {
       control: { type: 'select' },
-      options: ['small', 'medium', 'large'],
     },
   },
 };
@@ -24,20 +23,6 @@ export const Primary = {
 
 export const Secondary = {
   args: {
-    label: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
     label: 'Button',
   },
 };

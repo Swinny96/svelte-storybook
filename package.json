@@ -9,7 +9,8 @@
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_ae783090366e9f0"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.0.27",
@@ -24,6 +25,7 @@
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.20.4",
     "@types/postcss-preset-env": "^8.0.0",
+    "chromatic": "^6.19.9",
     "postcss-load-config": "^4.0.1",
     "postcss-preset-env": "^9.0.0",
     "react": "^18.2.0",
@@ -37,5 +39,7 @@
   "type": "module",
   "dependencies": {
     "svelte-preprocess-less": "^0.4.0"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "svelte-storybook@0.0.1"
 }
