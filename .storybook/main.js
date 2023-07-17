@@ -1,6 +1,6 @@
 /** @type { import('@storybook/sveltekit').StorybookConfig } */
 const config = {
-  stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
@@ -8,6 +8,7 @@ const config = {
     "@storybook/addon-docs",
     '@storybook/addon-a11y',
     'storybook-addon-themes',
+    '@storybook/preset-scss',
   ],
   framework: {
     name: "@storybook/sveltekit",
