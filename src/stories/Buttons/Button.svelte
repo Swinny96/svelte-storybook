@@ -1,5 +1,5 @@
 <script>
-  import './button.scss';
+  import './button.less';
 
   /**
    * Is this the principal call to action on the page?
