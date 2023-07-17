@@ -1,4 +1,5 @@
-<script>
+<script src="https://cdn.jsdelivr.net/npm/less">
+  import './button.less';
   import './button.scss';
 
   /**
