@@ -7,6 +7,7 @@ const config = {
     "@storybook/addon-interactions",
     "@storybook/addon-docs",
     '@storybook/addon-a11y',
+    'storybook-addon-themes',
   ],
   framework: {
     name: "@storybook/sveltekit",
