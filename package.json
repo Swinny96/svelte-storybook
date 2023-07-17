@@ -39,6 +39,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@storybook/addon-a11y": "^7.0.27",
     "svelte-preprocess-less": "^0.4.0"
   },
   "readme": "ERROR: No README data found!",
