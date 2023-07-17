@@ -22,6 +22,7 @@
     "@storybook/preset-scss": "^1.0.3",
     "@storybook/svelte": "^7.0.27",
     "@storybook/sveltekit": "^7.0.27",
+    "@storybook/test-runner": "^0.11.0",
     "@storybook/testing-library": "^0.0.14-next.2",
     "@storybook/theming": "^7.0.27",
     "@sveltejs/adapter-auto": "^2.0.0",
