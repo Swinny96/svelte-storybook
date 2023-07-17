@@ -43,13 +43,13 @@
     "style-loader": "^3.3.3",
     "svelte": "^4.0.5",
     "svelte-check": "^3.4.3",
+    "svelte-preprocess-less": "^0.4.0",
     "typescript": "^5.0.0",
     "vite": "^4.4.2"
   },
   "type": "module",
   "dependencies": {
-    "@storybook/addon-a11y": "^7.0.27",
-    "svelte-preprocess-less": "^0.4.0"
+    "@storybook/addon-a11y": "^7.0.27"
   },
   "readme": "ERROR: No README data found!",
   "_id": "svelte-storybook@0.0.1"
