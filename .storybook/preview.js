@@ -9,17 +9,17 @@ const preview = {
       },
     },
     themes: {
-      default: "twitter",
+      default: "incharge",
       list: [
         {
-          name: "twitter",
-          class: ["theme-twt", "light-mode"],
-          color: "#00aced",
+          name: "incharge",
+          class: ["incharge", "light-mode"],
+          color: "#003594",
         },
         {
-          name: "facebook",
-          class: ["theme-fb", "dark-mode"],
-          color: "#3b5998",
+          name: "ee",
+          class: ["ee-mm", "dark-mode"],
+          color: "#009C9C",
         },
       ],
     },
